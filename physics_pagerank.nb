@@ -1,0 +1,3485 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[    178289,       3475]
+NotebookOptionsPosition[    177565,       3454]
+NotebookOutlinePosition[    177930,       3470]
+CellTagsIndexPosition[    177887,       3467]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"links", " ", "=", " ", 
+   RowBox[{"WikipediaData", "[", 
+    RowBox[{
+     RowBox[{"\"\<Category\>\"", "\[Rule]", " ", "\"\<Physics\>\""}], ",", 
+     " ", "\"\<CategoryLinks\>\"", ",", " ", 
+     RowBox[{"\"\<MaxLevelItems\>\"", "\[Rule]", "100"}], ",", 
+     RowBox[{"\"\<MaxLevel\>\"", "\[Rule]", "2"}]}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{"g", "=", 
+  RowBox[{"Graph", "[", 
+   RowBox[{"links", ",", 
+    RowBox[{"VertexLabels", "\[Rule]", 
+     RowBox[{"Placed", "[", 
+      RowBox[{"\"\<Name\>\"", ",", "Tooltip"}], "]"}]}], ",", 
+    RowBox[{"VertexStyle", "\[Rule]", 
+     RowBox[{"{", 
+      RowBox[{"\"\<Physics\>\"", "\[Rule]", "Red"}], "}"}]}]}], 
+   "]"}]}]}], "Input",
+ CellChangeTimes->{{3.7473836182888737`*^9, 3.747383784895631*^9}, 
+   3.747383902409669*^9, {3.7473839356489058`*^9, 3.747383937247095*^9}, {
+   3.747383977503942*^9, 3.747384065318933*^9}},
+ CellLabel->"In[30]:=",ExpressionUUID->"c56a54cf-1a34-41aa-9de1-589f061f4b27"],
+
+Cell[BoxData[
+ GraphicsBox[
+  NamespaceBox["NetworkGraphics",
+   DynamicModuleBox[{Typeset`graph = HoldComplete[
+     Graph[{
+      "Category:Concepts in physics", "Category:Mechanics", 
+       "Category:Motion (physics)", "Category:Physical bodies", 
+       "Category:Vacuum", "Category:Equations of physics", 
+       "Category:Acoustic equations", "Category:Dirac equation", 
+       "Category:Equations of fluid dynamics", "Category:Equations of state", 
+       "Category:Maxwell's equations", 
+       "Category:Schr\[ODoubleDot]dinger equation", "Category:Fringe physics",
+        "Category:Anti-gravity", "Category:Cold fusion", 
+       "Category:Perpetual motion", "Category:Pseudophysics", 
+       "Category:Gravitation", "Category:Effects of gravitation", 
+       "Category:Falling", 
+       "Category:Fictional characters with gravity abilities", 
+       "Category:Gravimetry", "Category:Gravitational-wave astronomy", 
+       "Category:Gravitational waves", "Category:Great Attractor", 
+       "Category:Levitation", "Category:Orbits", 
+       "Category:Theories of gravitation", "Category:Weightlessness", 
+       "Category:History of physics", "Category:Aether theories", 
+       "Category:Atomism", "Category:Classical elements", 
+       "Category:Foundational quantum physics", 
+       "Category:History of electrical engineering", 
+       "Category:History of thermodynamics", "Category:Physics experiments", 
+       "Category:Physics societies", "Category:Physics timelines", 
+       "Category:Interaction", "Category:Chemical bonding", 
+       "Category:Modern physics", "Category:Chaos theory", 
+       "Category:Quantum mechanics", "Category:Theory of relativity", 
+       "Category:Physical phenomena", "Category:Doppler effects", 
+       "Category:Earth phenomena", "Category:Electrical phenomena", 
+       "Category:Ionization", "Category:Optical phenomena", 
+       "Category:Radiation", "Category:Stellar phenomena", 
+       "Category:Transport phenomena", "Category:Waves", "Category:Weather", 
+       "Category:Physical properties", "Category:Thermodynamic properties", 
+       "Category:Physical quantities", "Category:Acceleration", 
+       "Category:Amount of substance", "Category:Area", 
+       "Category:Capacitance", "Category:Density", "Category:Distance", 
+       "Category:Electrical resistance and conductance", 
+       "Category:Electric charge", "Category:Enthalpy", "Category:Entropy", 
+       "Category:Force", "Category:Geometric measurement", "Category:Length", 
+       "Category:Logarithmic scales of measurement", "Category:Mass", 
+       "Category:Molar quantities", "Category:Physical constants", 
+       "Category:Power (physics)", "Category:Pressure", "Category:Rates", 
+       "Category:Sound measurements", "Category:Temperature", 
+       "Category:Thermodynamic entropy", "Category:Time", "Category:Velocity",
+        "Category:Viscosity", "Category:Visibility", "Category:Voltage", 
+       "Category:Volume", "Category:Physical systems", 
+       "Category:Biological systems", "Category:Dynamical systems", 
+       "Category:Infrastructure", "Category:Networks", 
+       "Category:Quantum models", "Category:Technology systems", 
+       "Category:Thermodynamic systems", "Category:Writing systems", 
+       "Category:Physicists", "Category:African physicists", 
+       "Category:Ancient physicists", "Category:Fictional physicists", 
+       "Category:Jewish physicists", "Category:Magneticians", 
+       "Category:Medical physicists", "Category:Medieval physicists", 
+       "Category:Opticians", "Category:Physicists by century", 
+       "Category:Physicists by field of research", 
+       "Category:Physicists by nationality", "Category:Physicist stubs", 
+       "Category:Physicists who committed suicide", 
+       "Category:Physics award winners", "Category:Physics educators", 
+       "Category:Tamil physicists", "Category:Wikipedia books on physicists", 
+       "Category:Women physicists", "Category:Physics awards", 
+       "Category:Awards of the Acoustical Society of America", 
+       "Category:Awards of the American Institute of Physics", 
+       "Category:Awards of the American Physical Society", 
+       "Category:Awards of the European Physical Society", 
+       "Category:Awards of the German Physical Society", 
+       "Category:Awards of the Institute of Physics", 
+       "Category:Laser awards and associations", 
+       "Category:Nobel Prize in Physics", "Category:Physics awards templates",
+        "Category:Physics events", "Category:Physics conferences", 
+       "Category:Physics in fiction", "Category:Antimatter", 
+       "Category:Cartoon physics", 
+       "Category:Faster-than-light travel in fiction", 
+       "Category:Fictional characters by physics or reality manipulation", 
+       "Category:Fictional dimensions", "Category:Fictional power sources", 
+       "Category:Films about physics", 
+       "Category:Quantum mechanics in fiction", 
+       "Category:Teleportation in fiction", "Category:Time in fiction", 
+       "Category:Physics literature", "Category:Physics books", 
+       "Category:Physics journals", "Category:Physics magazines", 
+       "Category:Physics pamphlets", "Category:Physics papers", 
+       "Category:Physics organizations", 
+       "Category:American Association of Physics Teachers", 
+       "Category:American Institute of Physics", 
+       "Category:Crystallography organizations", 
+       "Category:Geophysics organizations", "Category:Health Physics Society",
+        "Category:International Young Physicists' Tournament", 
+       "Category:Physics departments", "Category:Physics institutes", 
+       "Category:Physics laboratories", "Category:Physics organization stubs",
+        "Category:Physics-related lists", 
+       "Category:Indexes of physics articles", 
+       "Category:Lists of Solar System objects", 
+       "Category:Lists of things named after physicists", 
+       "Category:Physics stubs", 
+       "Category:Atomic, molecular, and optical physics stubs", 
+       "Category:Classical mechanics stubs", 
+       "Category:Condensed matter stubs", "Category:Electromagnetism stubs", 
+       "Category:Geophysics stubs", "Category:Isotope stubs", 
+       "Category:Nuclear and atomic physics stubs", "Category:Optics stubs", 
+       "Category:Particle physics stubs", "Category:Physics book stubs", 
+       "Category:Physics journal stubs", "Category:Plasma physics stubs", 
+       "Category:Quantum physics stubs", "Category:Relativity stubs", 
+       "Category:Thermodynamics stubs", "Category:Physics templates", 
+       "Category:Mechanics templates", "Category:Nuclide templates", 
+       "Category:Physical quantities and unit templates", 
+       "Category:Physics citation templates", 
+       "Category:Physics formatting templates", 
+       "Category:Physics infobox templates", 
+       "Category:Physics navbox templates", 
+       "Category:Physics sidebar templates", 
+       "Category:Physics stub templates", 
+       "Category:Subatomic particle symbol templates", 
+       "Category:WikiProject Physics templates", 
+       "Category:Subfields of physics", 
+       "Category:Applied and interdisciplinary physics", 
+       "Category:Atomic, molecular, and optical physics", 
+       "Category:Cloud and fog physics", "Category:Computational physics", 
+       "Category:Condensed matter physics", "Category:Electromagnetism", 
+       "Category:Experimental physics", "Category:Nuclear physics", 
+       "Category:Particle physics", "Category:Philosophy of physics", 
+       "Category:Physical cosmology", "Category:Physics education", 
+       "Category:Plasma physics", "Category:Psychophysics", 
+       "Category:Surface science", "Category:Theoretical physics", 
+       "Category:Thermodynamics", "Category:Time in physics", 
+       "Category:Unsolved problems in physics", "Category:Amorphous solids", 
+       "Category:Black holes", "Category:Dark matter", 
+       "Category:Hypothetical elementary particles", 
+       "Category:Magnetic monopoles", 
+       "Category:Physics beyond the Standard Model", 
+       "Category:Wikipedia books on physics", 
+       "Category:Wikipedia books on fluid mechanics", 
+       "Category:Wikipedia books on quantum mechanics", 
+       "Category:Wikipedia books on theory of relativity", "Physics", 
+       "Category:Limits of computation", "Category:Limits to computation", 
+       "Category:Physics websites", 
+       "Category:Standardized tests for Physics"}, {CompressedData["
+1:eJwVxWd7DUEYANBbWPWGjN6WKElcjF7i1XuLEnV1o7ckxOgkE53VRieL0Tuj
+t9F7u6suXuUP+BH4cJ6TwnKyWCQUCv355//hSDgaLhYubpWwSlqlrNJWGats
+LClWLlY+lkySSAVSkVQilUkVUpVUI9VJDVKT1LJr23XsFLuuXc+ubzewU+20
+9IbxRvHG8Sa0KW1Gm9MWNEpb0la0NW1D29J2Ge2hA3SETtAZukBX6AbdoQf0
+hF7QG/pAX+gH/WEAZMJAGASDYQhkwVAYBsNhBIyEUc5oZ4wz1hnnjHcmOBOd
+SWwym8KmsmlsOpvBZrJZbDabw+aybJbDctk8Np/lsQV8IV/EF/MlfClfxpfz
+FXwlz80vEIVilVgt1oi1Yp1YLzaIjWKTu9nd4m51t7nb5Q65U+6Su+UeuVcW
+yH1yvzwgi2Sqd9A75B320tQRdVQdU8fVCXVSnVKn1RmVrc6qc6pInVcX1EV1
+SV/WV/RVfU1f1zf0TX1L39Z39F1zz9w3D8xD88g8Nk9MxDw1z8xz88K8NK9M
+snlt3pi35l0imsj03/uF/gf/o//J/+x/Cb4GecG34DuG0cIYErQxHX/gT4wj
+xQwEdJAhx3wU6KJEDxVq/IW/0WACfQz+AheJ1YY=
+       "], Null}, {VertexLabels -> {
+         Placed["Name", Tooltip]}, 
+       VertexStyle -> {"Physics" -> RGBColor[1, 0, 0]}}]]}, 
+    TagBox[GraphicsGroupBox[{
+       {Hue[0.6, 0.7, 0.5], Opacity[0.7], Arrowheads[0.018311894791984036`], 
+        ArrowBox[CompressedData["
+1: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
+ni35nVtMh/8DyKDYNg==
+         "], 0.05674973412336323]}, 
+       {Hue[0.6, 0.2, 0.8], EdgeForm[{GrayLevel[0], Opacity[0.7]}], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{3.1159291070711883, 4.392901236170775}, 
+           0.05674973412336323],
+          "\"Category:Concepts in physics\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Concepts in physics", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{2.845015149622996, 5.385508000556893}, 0.05674973412336323],
+          "\"Category:Mechanics\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Mechanics", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{2.4503504593777286, 3.6657485672424865}, 
+           0.05674973412336323],
+          "\"Category:Motion (physics)\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Motion (physics)", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{2.991976793052536, 4.865273860859985}, 0.05674973412336323],
+          "\"Category:Physical bodies\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Physical bodies", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{3.2496464899530295, 4.882772776980047}, 
+           0.05674973412336323],
+          "\"Category:Vacuum\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Vacuum", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{5.131762145220253, 4.163285195563297}, 0.05674973412336323],
+          "\"Category:Equations of physics\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Equations of physics", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{5.567993012286756, 3.9109771857673055}, 
+           0.05674973412336323],
+          "\"Category:Acoustic equations\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Acoustic equations", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{5.468886118451641, 4.6545725616997045}, 
+           0.05674973412336323],
+          "\"Category:Dirac equation\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Dirac equation", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{5.405805739902918, 4.082594143629523}, 0.05674973412336323],
+          "\"Category:Equations of fluid dynamics\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Equations of fluid dynamics", "Tooltip"]& ], 
+        
+        TagBox[
+         TooltipBox[
+          DiskBox[{5.669097732663095, 4.207923625635143}, 0.05674973412336323],
+          "\"Category:Equations of state\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Equations of state", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{5.737005453296723, 4.36640716598755}, 0.05674973412336323],
+          
+          "\"Category:Maxwell's equations\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Maxwell's equations", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{5.678341369798646, 4.605452994059975}, 0.05674973412336323],
+          "\"Category:Schr\[ODoubleDot]dinger equation\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Schr\[ODoubleDot]dinger equation", 
+          "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{2.8268609503404614, 4.017682275301084}, 
+           0.05674973412336323],
+          "\"Category:Fringe physics\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Fringe physics", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{1.996493899456375, 4.323106505080253}, 0.05674973412336323],
+          "\"Category:Anti-gravity\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Anti-gravity", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{2.836455191087636, 3.309936161764295}, 0.05674973412336323],
+          "\"Category:Cold fusion\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Cold fusion", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{2.6506696052536904, 3.3097299392585415}, 
+           0.05674973412336323],
+          "\"Category:Perpetual motion\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Perpetual motion", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{2.592581287323423, 5.14159552234764}, 0.05674973412336323],
+          
+          "\"Category:Pseudophysics\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Pseudophysics", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{1.4365694259565212, 4.645198007865366}, 
+           0.05674973412336323],
+          "\"Category:Gravitation\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Gravitation", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{0.9519510613422768, 5.317455461885103}, 
+           0.05674973412336323],
+          "\"Category:Effects of gravitation\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Effects of gravitation", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{0.6114344768277533, 4.527898054486037}, 
+           0.05674973412336323],
+          "\"Category:Falling\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Falling", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{0.6142306310889025, 5.131532077001985}, 
+           0.05674973412336323],
+          "\"Category:Fictional characters with gravity abilities\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Fictional characters with gravity abilities",
+           "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{0.5159270984806752, 4.713923099008073}, 
+           0.05674973412336323],
+          "\"Category:Gravimetry\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Gravimetry", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{0.7463062252854087, 5.2719151473831705}, 
+           0.05674973412336323],
+          "\"Category:Gravitational-wave astronomy\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Gravitational-wave astronomy", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{0.6470060683276371, 4.939487523017626}, 
+           0.05674973412336323],
+          "\"Category:Gravitational waves\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Gravitational waves", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{0.4989190435742561, 4.924116201567734}, 
+           0.05674973412336323],
+          "\"Category:Great Attractor\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Great Attractor", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{0.8017258816191344, 5.062390334468627}, 
+           0.05674973412336323],
+          "\"Category:Levitation\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Levitation", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{0.9873229347772385, 5.111206275014703}, 
+           0.05674973412336323],
+          "\"Category:Orbits\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Orbits", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{0.7436366312654044, 4.645773955057422}, 
+           0.05674973412336323],
+          "\"Category:Theories of gravitation\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Theories of gravitation", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{0.8114666132088515, 4.839184755006584}, 
+           0.05674973412336323],
+          "\"Category:Weightlessness\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Weightlessness", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{3.8132007479332897, 1.8122754712969185}, 
+           0.05674973412336323],
+          "\"Category:History of physics\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:History of physics", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{3.39748721440447, 1.1243013179216224}, 0.05674973412336323],
+          "\"Category:Aether theories\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Aether theories", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{3.519605739854967, 1.0263045442051828}, 
+           0.05674973412336323],
+          "\"Category:Atomism\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Atomism", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{3.961914366417373, 1.146055413827427}, 0.05674973412336323],
+          "\"Category:Classical elements\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Classical elements", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{3.845892243152063, 1.001950514215026}, 0.05674973412336323],
+          "\"Category:Foundational quantum physics\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Foundational quantum physics", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{3.3792304126042993, 1.3091541095742154}, 
+           0.05674973412336323],
+          "\"Category:History of electrical engineering\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:History of electrical engineering", 
+          "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{3.681351153801357, 1.2400345283884198}, 
+           0.05674973412336323],
+          "\"Category:History of thermodynamics\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:History of thermodynamics", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{3.683910049585112, 0.9980103284127964}, 
+           0.05674973412336323],
+          "\"Category:Physics experiments\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Physics experiments", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{4.798421093558006, 2.378144495051874}, 0.05674973412336323],
+          "\"Category:Physics societies\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Physics societies", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{3.2882672254959386, 2.0006191797107578}, 
+           0.05674973412336323],
+          "\"Category:Physics timelines\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Physics timelines", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{3.6794893969603426, 3.0322345756988787}, 
+           0.05674973412336323],
+          "\"Category:Interaction\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Interaction", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{3.521365158774773, 2.5711102110515625}, 
+           0.05674973412336323],
+          "\"Category:Chemical bonding\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Chemical bonding", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{3.170361813877058, 4.058160898661833}, 0.05674973412336323],
+          "\"Category:Modern physics\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Modern physics", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{2.627369021977562, 4.104357624019494}, 0.05674973412336323],
+          "\"Category:Chaos theory\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Chaos theory", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{2.9634228879226705, 4.505111101348878}, 
+           0.05674973412336323],
+          "\"Category:Quantum mechanics\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Quantum mechanics", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{2.7234994480423125, 4.355367184007012}, 
+           0.05674973412336323],
+          "\"Category:Theory of relativity\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Theory of relativity", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{1.7231486515831032, 3.424406914492616}, 
+           0.05674973412336323],
+          "\"Category:Physical phenomena\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Physical phenomena", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{1.1390859318933964, 3.17560368435629}, 0.05674973412336323],
+          "\"Category:Doppler effects\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Doppler effects", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{0.9416869113036852, 3.677645229130407}, 
+           0.05674973412336323],
+          "\"Category:Earth phenomena\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Earth phenomena", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{1.0497250010228418, 3.013557578708781}, 
+           0.05674973412336323],
+          "\"Category:Electrical phenomena\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Electrical phenomena", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{1.2891025491719175, 2.9769737554946576}, 
+           0.05674973412336323],
+          "\"Category:Ionization\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Ionization", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{1.0615780626872162, 3.490764646371843}, 
+           0.05674973412336323],
+          "\"Category:Optical phenomena\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Optical phenomena", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{1.2272208706738086, 3.358866933681703}, 
+           0.05674973412336323],
+          "\"Category:Radiation\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Radiation", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{0.8659817331793636, 3.351673195638556}, 
+           0.05674973412336323],
+          "\"Category:Stellar phenomena\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Stellar phenomena", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{1.130613001786382, 3.722670578067526}, 0.05674973412336323],
+          "\"Category:Transport phenomena\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Transport phenomena", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{0.8417285022680554, 3.5118446356875395}, 
+           0.05674973412336323],
+          "\"Category:Waves\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Waves", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{0.9241363712405986, 3.1873880542254103}, 
+           0.05674973412336323],
+          "\"Category:Weather\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Weather", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{4.056674628717674, 4.2779393006701}, 0.05674973412336323],
+          "\"Category:Physical properties\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Physical properties", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{4.155231297584957, 4.7909784698073965}, 
+           0.05674973412336323],
+          "\"Category:Thermodynamic properties\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Thermodynamic properties", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{0.9607892912769249, 1.346048311402678}, 
+           0.05674973412336323],
+          "\"Category:Physical quantities\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Physical quantities", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{0.2983116361516984, 1.3512173759696728}, 
+           0.05674973412336323],
+          "\"Category:Acceleration\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Acceleration", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[DiskBox[{0., 1.0358467071187611}, 0.05674973412336323],
+          "\"Category:Amount of substance\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Amount of substance", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{0.0037636560050624546, 1.391913773681884}, 
+           0.05674973412336323],
+          "\"Category:Area\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Area", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{0.44570508465874603, 0.4719179388840482}, 
+           0.05674973412336323],
+          "\"Category:Capacitance\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Capacitance", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{0.42736679065575434, 0.8440303565784357}, 
+           0.05674973412336323],
+          "\"Category:Density\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Density", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{0.39175014680671705, 0.6226071809528215}, 
+           0.05674973412336323],
+          "\"Category:Distance\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Distance", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{0.739378865159408, 0.8630542734886419}, 
+           0.05674973412336323],
+          "\"Category:Electrical resistance and conductance\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Electrical resistance and conductance", 
+          "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{1.1499198273392, 0.788134093532697}, 0.05674973412336323],
+          "\"Category:Electric charge\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Electric charge", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{0.08465748793433914, 1.611427281398519}, 
+           0.05674973412336323],
+          "\"Category:Enthalpy\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Enthalpy", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{0.2014480472476663, 0.7668112725200742}, 
+           0.05674973412336323],
+          "\"Category:Entropy\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Entropy", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{0.07160019184503108, 0.8670822425766431}, 
+           0.05674973412336323],
+          "\"Category:Force\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Force", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{0.4390178563646234, 1.6719629820234403}, 
+           0.05674973412336323],
+          "\"Category:Geometric measurement\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Geometric measurement", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{0.1455831198274602, 1.5026691017450104}, 
+           0.05674973412336323],
+          "\"Category:Length\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Length", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{0.498236907262132, 1.0436505759416295}, 
+           0.05674973412336323],
+          "\"Category:Logarithmic scales of measurement\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Logarithmic scales of measurement", 
+          "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{0.027775845483569928, 1.1903491754926767}, 
+           0.05674973412336323],
+          "\"Category:Mass\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Mass", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{0.579413267752495, 0.7107936909600987}, 
+           0.05674973412336323],
+          "\"Category:Molar quantities\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Molar quantities", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{0.652587078619693, 0.3924185871395287}, 
+           0.05674973412336323],
+          "\"Category:Physical constants\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Physical constants", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{1.7712731573898473, 2.1146531352987727}, 
+           0.05674973412336323],
+          "\"Category:Power (physics)\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Power (physics)", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{0.22602302272825536, 0.6016691519800985}, 
+           0.05674973412336323],
+          "\"Category:Pressure\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Pressure", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{0.2880716199693296, 0.9534723685952224}, 
+           0.05674973412336323],
+          "\"Category:Rates\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Rates", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{0.863136909975255, 0.4863418581084944}, 
+           0.05674973412336323],
+          "\"Category:Sound measurements\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Sound measurements", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{0.8783489810270022, 0.7290222708031497}, 
+           0.05674973412336323],
+          "\"Category:Temperature\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Temperature", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{1.1205019884917942, 0.6372414460652549}, 
+           0.05674973412336323],
+          "\"Category:Thermodynamic entropy\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Thermodynamic entropy", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{0.5324603049516194, 1.276794101875847}, 
+           0.05674973412336323],
+          "\"Category:Time\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Time", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{1.0335111011521922, 0.4854815494920346}, 
+           0.05674973412336323],
+          "\"Category:Velocity\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Velocity", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{0.30313086046678883, 1.5235356112317846}, 
+           0.05674973412336323],
+          "\"Category:Viscosity\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Viscosity", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{0.6943327169896492, 0.538491237761495}, 
+           0.05674973412336323],
+          "\"Category:Visibility\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Visibility", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{0.5467956282724615, 1.4833587609855112}, 
+           0.05674973412336323],
+          "\"Category:Voltage\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Voltage", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{0.20442377545665602, 1.0954716615319926}, 
+           0.05674973412336323],
+          "\"Category:Volume\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Volume", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{5.041868870340984, 5.759105339631498}, 0.05674973412336323],
+          "\"Category:Physical systems\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Physical systems", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{5.523662049026672, 6.403791598427405}, 0.05674973412336323],
+          "\"Category:Biological systems\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Biological systems", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{5.711627880983314, 6.393344968619585}, 0.05674973412336323],
+          "\"Category:Dynamical systems\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Dynamical systems", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{5.361805212930774, 6.597432004891324}, 0.05674973412336323],
+          "\"Category:Infrastructure\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Infrastructure", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{5.112239782701883, 6.479762062865712}, 0.05674973412336323],
+          "\"Category:Networks\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Networks", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{5.337217173107786, 6.3603595636132795}, 
+           0.05674973412336323],
+          "\"Category:Quantum models\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Quantum models", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{5.185915255577469, 6.638828648840709}, 0.05674973412336323],
+          "\"Category:Technology systems\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Technology systems", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{5.638276495749995, 6.224519755971228}, 0.05674973412336323],
+          "\"Category:Thermodynamic systems\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Thermodynamic systems", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{5.530788638734704, 6.575984959000953}, 0.05674973412336323],
+          "\"Category:Writing systems\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Writing systems", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{6.757423743412717, 2.8493524291693753}, 
+           0.05674973412336323],
+          "\"Category:Physicists\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Physicists", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{7.440660802569569, 2.901114941669886}, 0.05674973412336323],
+          "\"Category:African physicists\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:African physicists", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{7.302439574702139, 2.484727656619283}, 0.05674973412336323],
+          "\"Category:Ancient physicists\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Ancient physicists", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{7.606689988211398, 2.6404979166642386}, 
+           0.05674973412336323],
+          "\"Category:Fictional physicists\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Fictional physicists", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{7.410554549938099, 2.6700391756582222}, 
+           0.05674973412336323],
+          "\"Category:Jewish physicists\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Jewish physicists", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{7.268511044144324, 2.2215491839618675}, 
+           0.05674973412336323],
+          "\"Category:Magneticians\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Magneticians", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{7.665517699131202, 3.1106101732156333}, 
+           0.05674973412336323],
+          "\"Category:Medical physicists\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Medical physicists", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{7.743434251649173, 2.950133190310725}, 0.05674973412336323],
+          "\"Category:Medieval physicists\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Medieval physicists", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{7.124728742475423, 2.3305007536985483}, 
+           0.05674973412336323],
+          "\"Category:Opticians\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Opticians", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{7.420233976483596, 3.1229171915015317}, 
+           0.05674973412336323],
+          "\"Category:Physicists by century\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Physicists by century", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{7.547911373089402, 3.2568630235204643}, 
+           0.05674973412336323],
+          "\"Category:Physicists by field of research\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Physicists by field of research", 
+          "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{7.571256399899305, 2.430406679489227}, 0.05674973412336323],
+          "\"Category:Physicists by nationality\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Physicists by nationality", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{6.101364286924946, 1.8368618782591104}, 
+           0.05674973412336323],
+          "\"Category:Physicist stubs\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Physicist stubs", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{7.600483750301279, 2.8586906426175736}, 
+           0.05674973412336323],
+          "\"Category:Physicists who committed suicide\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Physicists who committed suicide", 
+          "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{6.818290380392183, 3.88563209397068}, 0.05674973412336323],
+          
+          "\"Category:Physics award winners\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Physics award winners", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{7.487817721439056, 2.2865488765764184}, 
+           0.05674973412336323],
+          "\"Category:Physics educators\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Physics educators", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{7.714272292639789, 2.5214532656440514}, 
+           0.05674973412336323],
+          "\"Category:Tamil physicists\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Tamil physicists", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{5.716409945830935, 2.646187763277717}, 0.05674973412336323],
+          "\"Category:Wikipedia books on physicists\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Wikipedia books on physicists", 
+          "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{7.747660027541937, 2.7596782138229212}, 
+           0.05674973412336323],
+          "\"Category:Women physicists\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Women physicists", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{6.254184888644147, 4.724612747900549}, 0.05674973412336323],
+          "\"Category:Physics awards\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Physics awards", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{7.065285827834936, 5.26786250187258}, 0.05674973412336323],
+          
+          "\"Category:Awards of the Acoustical Society of America\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Awards of the Acoustical Society of America",
+           "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{6.659420692481153, 5.45720464615623}, 0.05674973412336323],
+          
+          "\"Category:Awards of the American Institute of Physics\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Awards of the American Institute of Physics",
+           "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{6.874540855130847, 5.4339789756531065}, 
+           0.05674973412336323],
+          "\"Category:Awards of the American Physical Society\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Awards of the American Physical Society", 
+          "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{6.8916101651646215, 5.235425568850673}, 
+           0.05674973412336323],
+          "\"Category:Awards of the European Physical Society\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Awards of the European Physical Society", 
+          "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{7.0026315882362855, 4.83770428227244}, 0.05674973412336323],
+          "\"Category:Awards of the German Physical Society\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Awards of the German Physical Society", 
+          "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{6.711041503629647, 5.276369719416202}, 0.05674973412336323],
+          "\"Category:Awards of the Institute of Physics\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Awards of the Institute of Physics", 
+          "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{7.145046250390827, 4.938314049374842}, 0.05674973412336323],
+          "\"Category:Laser awards and associations\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Laser awards and associations", 
+          "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{6.837727374335808, 5.048166391107703}, 0.05674973412336323],
+          "\"Category:Nobel Prize in Physics\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Nobel Prize in Physics", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{7.072700467675385, 5.088026106719715}, 0.05674973412336323],
+          "\"Category:Physics awards templates\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Physics awards templates", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{4.623398362447674, 3.5201544504942333}, 
+           0.05674973412336323],
+          "\"Category:Physics events\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Physics events", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{5.234239197687901, 3.415569997673945}, 0.05674973412336323],
+          "\"Category:Physics conferences\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Physics conferences", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{3.9410582223013257, 6.048211483418684}, 
+           0.05674973412336323],
+          "\"Category:Physics in fiction\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Physics in fiction", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{3.31995266257482, 5.714955511899589}, 0.05674973412336323],
+          
+          "\"Category:Antimatter\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Antimatter", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{3.6646512185265148, 6.910347933699967}, 
+           0.05674973412336323],
+          "\"Category:Cartoon physics\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Cartoon physics", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{3.670296439079588, 6.730672673136222}, 0.05674973412336323],
+          "\"Category:Faster-than-light travel in fiction\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Faster-than-light travel in fiction", 
+          "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{4.059575576137823, 6.9727520151169085}, 
+           0.05674973412336323],
+          
+          "\"Category:Fictional characters by physics or reality manipulation\
+\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, 
+          "Category:Fictional characters by physics or reality manipulation", 
+          "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{3.850133758782855, 6.980739217005459}, 0.05674973412336323],
+          "\"Category:Fictional dimensions\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Fictional dimensions", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{4.214220293586571, 6.638016318365652}, 0.05674973412336323],
+          "\"Category:Fictional power sources\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Fictional power sources", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{4.241444545452646, 6.917918256500682}, 0.05674973412336323],
+          "\"Category:Films about physics\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Films about physics", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{4.084171305441425, 6.74199568997054}, 0.05674973412336323],
+          
+          "\"Category:Quantum mechanics in fiction\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Quantum mechanics in fiction", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{4.365375214279222, 6.744132521715751}, 0.05674973412336323],
+          "\"Category:Teleportation in fiction\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Teleportation in fiction", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{3.924532215570607, 6.788089157647958}, 0.05674973412336323],
+          "\"Category:Time in fiction\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Time in fiction", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{4.798467625561808, 4.869096420480281}, 0.05674973412336323],
+          "\"Category:Physics literature\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Physics literature", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{5.403970199062073, 5.326148942068664}, 0.05674973412336323],
+          "\"Category:Physics books\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Physics books", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{4.920291708085787, 5.389012053472747}, 0.05674973412336323],
+          "\"Category:Physics journals\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Physics journals", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{5.25291488920198, 5.229893793520382}, 0.05674973412336323],
+          
+          "\"Category:Physics magazines\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Physics magazines", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{5.02906038057975, 5.504752239997069}, 0.05674973412336323],
+          
+          "\"Category:Physics pamphlets\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Physics pamphlets", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{5.2464629070056885, 5.469650597016247}, 
+           0.05674973412336323],
+          "\"Category:Physics papers\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Physics papers", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{5.646575396943173, 3.1355926000859657}, 
+           0.05674973412336323],
+          "\"Category:Physics organizations\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Physics organizations", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{6.263570026287917, 3.451567687975636}, 0.05674973412336323],
+          "\"Category:American Association of Physics Teachers\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:American Association of Physics Teachers", 
+          "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{6.465792803672806, 3.411958331036311}, 0.05674973412336323],
+          "\"Category:American Institute of Physics\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:American Institute of Physics", 
+          "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{6.089397737444188, 3.3807622711275482}, 
+           0.05674973412336323],
+          "\"Category:Crystallography organizations\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Crystallography organizations", 
+          "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{6.4660083348617015, 3.239879734570259}, 
+           0.05674973412336323],
+          "\"Category:Geophysics organizations\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Geophysics organizations", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{6.399338440566905, 3.0545637745118435}, 
+           0.05674973412336323],
+          "\"Category:Health Physics Society\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Health Physics Society", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{6.222568100979572, 2.9404532855303382}, 
+           0.05674973412336323],
+          "\"Category:International Young Physicists' Tournament\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:International Young Physicists' Tournament", 
+          "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{6.159478500421719, 3.638669120212523}, 0.05674973412336323],
+          "\"Category:Physics departments\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Physics departments", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{6.219174194254519, 3.161364081574545}, 0.05674973412336323],
+          "\"Category:Physics institutes\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Physics institutes", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{6.391385055265269, 3.597471440763635}, 0.05674973412336323],
+          "\"Category:Physics laboratories\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Physics laboratories", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{5.494190333623417, 2.0021241967250454}, 
+           0.05674973412336323],
+          "\"Category:Physics organization stubs\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Physics organization stubs", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{3.1332129039380243, 2.6565083700101058}, 
+           0.05674973412336323],
+          "\"Category:Physics-related lists\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Physics-related lists", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{2.732138745451093, 2.160471693591619}, 0.05674973412336323],
+          "\"Category:Indexes of physics articles\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Indexes of physics articles", "Tooltip"]& ], 
+        
+        TagBox[
+         TooltipBox[
+          DiskBox[{2.5771720748521596, 2.3947706256955654}, 
+           0.05674973412336323],
+          "\"Category:Lists of Solar System objects\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Lists of Solar System objects", 
+          "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{2.567383747821945, 2.5938729848472835}, 
+           0.05674973412336323],
+          "\"Category:Lists of things named after physicists\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Lists of things named after physicists", 
+          "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{5.201417621353887, 0.9889373391773795}, 
+           0.05674973412336323],
+          "\"Category:Physics stubs\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Physics stubs", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{5.715760242429523, 0.5056036966051702}, 
+           0.05674973412336323],
+          "\"Category:Atomic, molecular, and optical physics stubs\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, 
+          "Category:Atomic, molecular, and optical physics stubs", 
+          "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{4.848831251172652, 0.3640418758283146}, 
+           0.05674973412336323],
+          "\"Category:Classical mechanics stubs\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Classical mechanics stubs", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{5.8579195166686375, 0.37935217584980174}, 
+           0.05674973412336323],
+          "\"Category:Condensed matter stubs\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Condensed matter stubs", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{5.094966740072631, 0.03827847208076918}, 
+           0.05674973412336323],
+          "\"Category:Electromagnetism stubs\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Electromagnetism stubs", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{5.532985790706123, 0.026326998888452025}, 
+           0.05674973412336323],
+          "\"Category:Geophysics stubs\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Geophysics stubs", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{4.928241045068264, 0.15919617005844922}, 
+           0.05674973412336323],
+          "\"Category:Isotope stubs\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Isotope stubs", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{5.36389072809075, 0.3759074437246386}, 0.05674973412336323],
+          "\"Category:Nuclear and atomic physics stubs\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Nuclear and atomic physics stubs", 
+          "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{5.129457790802231, 0.2645803310040242}, 
+           0.05674973412336323],
+          "\"Category:Optics stubs\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Optics stubs", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{5.55997713496285, 0.379691968145647}, 0.05674973412336323],
+          
+          "\"Category:Particle physics stubs\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Particle physics stubs", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[DiskBox[{5.315091171948053, 0.}, 0.05674973412336323],
+          "\"Category:Physics book stubs\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Physics book stubs", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{5.781199399034, 0.23333008781793962}, 0.05674973412336323],
+          
+          "\"Category:Physics journal stubs\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Physics journal stubs", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{5.665110640928032, 0.14066973593706855}, 
+           0.05674973412336323],
+          "\"Category:Plasma physics stubs\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Plasma physics stubs", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{5.265472856590131, 0.15922649611662187}, 
+           0.05674973412336323],
+          "\"Category:Quantum physics stubs\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Quantum physics stubs", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{5.0279014461650755, 0.5067504700661694}, 
+           0.05674973412336323],
+          "\"Category:Relativity stubs\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Relativity stubs", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{5.462093723677632, 0.16904740395010132}, 
+           0.05674973412336323],
+          "\"Category:Thermodynamics stubs\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Thermodynamics stubs", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{5.849259596260058, 1.7568319967253576}, 
+           0.05674973412336323],
+          "\"Category:Physics templates\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Physics templates", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{6.052571464845966, 1.2099601537586944}, 
+           0.05674973412336323],
+          "\"Category:Mechanics templates\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Mechanics templates", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{6.088624932868043, 1.0458572370802646}, 
+           0.05674973412336323],
+          "\"Category:Nuclide templates\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Nuclide templates", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{6.274917115106044, 0.9542179144205636}, 
+           0.05674973412336323],
+          "\"Category:Physical quantities and unit templates\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Physical quantities and unit templates", 
+          "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{6.4775896116985425, 1.5575979409660676}, 
+           0.05674973412336323],
+          "\"Category:Physics citation templates\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Physics citation templates", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{6.446871359528847, 1.0043795374840858}, 
+           0.05674973412336323],
+          "\"Category:Physics formatting templates\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Physics formatting templates", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{6.305039439920266, 1.147030665654039}, 0.05674973412336323],
+          "\"Category:Physics infobox templates\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Physics infobox templates", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{6.662645291919146, 1.5336565982163182}, 
+           0.05674973412336323],
+          "\"Category:Physics navbox templates\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Physics navbox templates", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{6.324690441307044, 1.332273682699146}, 0.05674973412336323],
+          "\"Category:Physics sidebar templates\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Physics sidebar templates", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{6.511676683243222, 1.3135092645033484}, 
+           0.05674973412336323],
+          "\"Category:Physics stub templates\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Physics stub templates", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{6.676118384706537, 1.315136863454701}, 0.05674973412336323],
+          "\"Category:Subatomic particle symbol templates\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Subatomic particle symbol templates", 
+          "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{6.589195106357908, 1.1268356023338262}, 
+           0.05674973412336323],
+          "\"Category:WikiProject Physics templates\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:WikiProject Physics templates", 
+          "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{2.5716445268004886, 6.169540278981629}, 
+           0.05674973412336323],
+          "\"Category:Subfields of physics\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Subfields of physics", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{1.849843176901876, 6.744119255370206}, 0.05674973412336323],
+          "\"Category:Applied and interdisciplinary physics\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Applied and interdisciplinary physics", 
+          "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{2.070641464621676, 7.021934153860259}, 0.05674973412336323],
+          "\"Category:Atomic, molecular, and optical physics\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Atomic, molecular, and optical physics", 
+          "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{2.738783355858278, 6.937237008490045}, 0.05674973412336323],
+          "\"Category:Cloud and fog physics\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Cloud and fog physics", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{2.332176773724478, 6.975714277389292}, 0.05674973412336323],
+          "\"Category:Computational physics\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Computational physics", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{2.057872039350583, 6.347440531469536}, 0.05674973412336323],
+          "\"Category:Condensed matter physics\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Condensed matter physics", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{2.5376491246083885, 6.712916006432982}, 
+           0.05674973412336323],
+          "\"Category:Electromagnetism\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Electromagnetism", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{2.562210257624068, 7.008710044108844}, 0.05674973412336323],
+          "\"Category:Experimental physics\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Experimental physics", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{1.7917993336773532, 6.5606002311145355}, 
+           0.05674973412336323],
+          "\"Category:Nuclear physics\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Nuclear physics", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{1.9223598927253214, 6.881218093086398}, 
+           0.05674973412336323],
+          "\"Category:Particle physics\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Particle physics", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{2.0760710868301273, 6.825093072980364}, 
+           0.05674973412336323],
+          "\"Category:Philosophy of physics\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Philosophy of physics", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{2.8805514044990006, 6.573841027315462}, 
+           0.05674973412336323],
+          "\"Category:Physical cosmology\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Physical cosmology", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{2.665822157096736, 6.468296889640566}, 0.05674973412336323],
+          "\"Category:Physics education\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Physics education", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{2.2438556904514444, 7.116471796567472}, 
+           0.05674973412336323],
+          "\"Category:Plasma physics\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Plasma physics", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{2.2517027248716857, 6.8184565218119335}, 
+           0.05674973412336323],
+          "\"Category:Psychophysics\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Psychophysics", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{2.905222680012419, 6.760951416366681}, 0.05674973412336323],
+          "\"Category:Surface science\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Surface science", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{1.992490520280859, 6.631735227545292}, 0.05674973412336323],
+          "\"Category:Theoretical physics\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Theoretical physics", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{2.4572446696469177, 7.1492954982405195}, 
+           0.05674973412336323],
+          "\"Category:Thermodynamics\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Thermodynamics", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{2.7074109623965112, 2.9911431900591134}, 
+           0.05674973412336323],
+          "\"Category:Time in physics\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Time in physics", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{2.793695650619299, 5.034963541436738}, 0.05674973412336323],
+          "\"Category:Unsolved problems in physics\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Unsolved problems in physics", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{2.2628543355498265, 5.278356960666401}, 
+           0.05674973412336323],
+          "\"Category:Amorphous solids\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Amorphous solids", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{2.3878547511567514, 5.65890035374877}, 0.05674973412336323],
+          "\"Category:Black holes\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Black holes", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{2.4349502468342683, 5.497300660134622}, 
+           0.05674973412336323],
+          "\"Category:Dark matter\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Dark matter", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{2.188947501838282, 5.586806926595943}, 0.05674973412336323],
+          "\"Category:Hypothetical elementary particles\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Hypothetical elementary particles", 
+          "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{2.095316476327956, 5.209433065716143}, 0.05674973412336323],
+          "\"Category:Magnetic monopoles\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Magnetic monopoles", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{2.1338918423585342, 5.433930692553318}, 
+           0.05674973412336323],
+          "\"Category:Physics beyond the Standard Model\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Physics beyond the Standard Model", 
+          "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{4.58152657956345, 2.6350742815068533}, 0.05674973412336323],
+          "\"Category:Wikipedia books on physics\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Wikipedia books on physics", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{4.301526695794273, 2.1492697631717}, 0.05674973412336323],
+          "\"Category:Wikipedia books on fluid mechanics\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Wikipedia books on fluid mechanics", 
+          "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{4.15285390460276, 2.1646071021067543}, 0.05674973412336323],
+          "\"Category:Wikipedia books on quantum mechanics\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Wikipedia books on quantum mechanics", 
+          "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{4.377270566566104, 1.954195464686127}, 0.05674973412336323],
+          "\"Category:Wikipedia books on theory of relativity\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Wikipedia books on theory of relativity", 
+          "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          {RGBColor[1, 0, 0], 
+           DiskBox[{3.910344703303836, 3.613078185256166}, 
+            0.05674973412336323]},
+          "\"Physics\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Physics", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{4.1047662293309966, 3.9093937369417384}, 
+           0.05674973412336323],
+          "\"Category:Limits of computation\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Limits of computation", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{3.9534663244485944, 3.241711307187728}, 
+           0.05674973412336323],
+          "\"Category:Limits to computation\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Limits to computation", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{4.218608469016894, 3.408715162841871}, 0.05674973412336323],
+          "\"Category:Physics websites\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Physics websites", "Tooltip"]& ], 
+        TagBox[
+         TooltipBox[
+          DiskBox[{3.618579805988785, 3.5933101009727326}, 
+           0.05674973412336323],
+          "\"Category:Standardized tests for Physics\"",
+          TooltipStyle->"TextStyling"],
+         Annotation[#, "Category:Standardized tests for Physics", 
+          "Tooltip"]& ]}}],
+     MouseAppearanceTag["NetworkGraphics"]],
+    AllowKernelInitialization->False]],
+  DefaultBaseStyle->{
+   "NetworkGraphics", FrontEnd`GraphicsHighlightColor -> Hue[0.8, 1., 0.6]},
+  FormatType->TraditionalForm,
+  FrameTicks->None]], "Output",
+ CellChangeTimes->{{3.74738376671058*^9, 3.7473837898645363`*^9}, 
+   3.747383914720739*^9, 3.747383946637966*^9, {3.747384030099387*^9, 
+   3.7473840735810966`*^9}},
+ CellLabel->"Out[31]=",ImageCache->GraphicsData["CompressedBitmap", "\<\
+eJycnXV8Vum173M7jHU6U5+2p6d2Tk/9VKYdt44LGhIkIUogIbi7BwgSJEgS
+3ENwJxDc3V2Du7vOuuu79vNswrT3n/t+PjMhb17Ze+lv6VM2uWmtmvWSm6an
+JP/ys8bJDWulpzT55acNGutTT/2fiIj/U0v/K/vLCP4tERH+f/ZI53/ul//P
+f1+3H0/JiRPHZfu2bXL+/LmIJsGfrtqPZ+TRo0cyevRoiaoSLxWqJEnVaomy
+YMGCp907jx8/pu/cqu88H1E7eOdZ/6HHj8u2rVvl3LmzEcHLn5W1a9dI2Yqx
+0m/kPMkv3Cpd+k+QipWqybGjRyO+UeIbR44cKVGV48JvXLhwobvk0+5VX331
+lYwZMya8riqxCVJYWFjKfVH//v2ldrOuMnHhThk7Z5MUFO2UKkl1Zf78QvdF
+z8rq1aukbFQ1yR5VKOP1Yjpn5+uXVuOeImqV/LZnZf26dU9cd9cBBRJZKVaK
+i4/onQavyc8fL9VSGkr+/O1SsGCHjJq1QSpUTpJ1a9eGX9mvXz+p0yKzxGXt
+kMoJtaWoaMHXv3LgwIGS3jRDX7rLXjpR76Bqcj2ZN29u+JUXL16Q6jXSJKVu
+a2nXc5h+VB1p1bqN3Lt7N/zKcePGSrWajcPLGjlzvV5WomxYv/7rX1lQUCCx
+1RsEL9UrG80dVEmWNWtWRwSEfVouXb4s1eu2khq16snYsWPl5s0b7nJekAsX
+zktySqrUqNda2vYYKpXia0ubtu3k/v17JnXKZdm6dYucP3cuokbw1cdKyNHW
+LZvl7Nkz4ZVfunRJUmrWksRaLaR9r+FSVfnXomVruat3F3xlKTl+7Jhs2bJF
+arUfKQePX3rGXcm5c+ckLrWJ1KrTQAkwTq/ypknM8OHDpaKTqyqxiUr3ooiU
+4EqKvy5Y+rJIfVnlmASZO3fuN9z9q4pITk6ufPBlVenSI1tu3LjxNckdpTIZ
+J+X1rX96/VMZmz/Zk+7YsaOqEFtk0479kp4xWW7deRDe68qVK00W+4+ZbwKW
+4WRRNTOieskLVFlcv97J4lx7abdBk6RCdKwcPnzIkeUp6T6sSGYs2Wm/BV/x
+knIR3QvEPb9wm2Tq+5Dho8oVHlz9iBEjjT5RsdXljQ/KSlydzl7W+vTtK3Vb
+dv8X0V20cOHXrzAnJ0dqNen8hOjGVK8vc+bMDq+ww6A50rrfzBJX+G0ZMOD/
+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
+2l/p0Xb7///vsL/7vxu8cPk=\
+\>"],ExpressionUUID->"2ca7ba3e-19b6-4946-b608-0e4f0e5ef274"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Part", "[", 
+  RowBox[{
+   RowBox[{"VertexList", "[", "g", "]"}], ",", 
+   RowBox[{"Ordering", "[", 
+    RowBox[{
+     RowBox[{"PageRankCentrality", "[", 
+      RowBox[{"g", ",", "0.85"}], "]"}], ",", "All", ",", "Greater"}], 
+    "]"}]}], "]"}]], "Input",
+ CellLabel->"In[32]:=",ExpressionUUID->"0301b784-3934-43ed-ac92-b6845d0a8b31"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"\<\"Category:Physics conferences\"\>", 
+   ",", "\<\"Category:Thermodynamic properties\"\>", 
+   ",", "\<\"Category:Chemical bonding\"\>", 
+   ",", "\<\"Category:Motion (physics)\"\>", 
+   ",", "\<\"Category:Power (physics)\"\>", 
+   ",", "\<\"Category:Physics timelines\"\>", 
+   ",", "\<\"Category:Theory of relativity\"\>", 
+   ",", "\<\"Category:Quantum mechanics\"\>", 
+   ",", "\<\"Category:Chaos theory\"\>", ",", "\<\"Category:Anti-gravity\"\>",
+    ",", "\<\"Category:Wikipedia books on physicists\"\>", 
+   ",", "\<\"Category:Pseudophysics\"\>", ",", "\<\"Category:Mechanics\"\>", 
+   ",", "\<\"Category:Wikipedia books on theory of relativity\"\>", 
+   ",", "\<\"Category:Wikipedia books on quantum mechanics\"\>", 
+   ",", "\<\"Category:Wikipedia books on fluid mechanics\"\>", 
+   ",", "\<\"Category:Lists of things named after physicists\"\>", 
+   ",", "\<\"Category:Lists of Solar System objects\"\>", 
+   ",", "\<\"Category:Indexes of physics articles\"\>", 
+   ",", "\<\"Category:Perpetual motion\"\>", 
+   ",", "\<\"Category:Cold fusion\"\>", ",", "\<\"Category:Vacuum\"\>", 
+   ",", "\<\"Category:Physical bodies\"\>", 
+   ",", "\<\"Category:Antimatter\"\>", ",", "\<\"Category:Physics papers\"\>",
+    ",", "\<\"Category:Physics pamphlets\"\>", 
+   ",", "\<\"Category:Physics magazines\"\>", 
+   ",", "\<\"Category:Physics journals\"\>", 
+   ",", "\<\"Category:Physics books\"\>", 
+   ",", "\<\"Category:Physics societies\"\>", 
+   ",", "\<\"Category:Schr\[ODoubleDot]dinger equation\"\>", 
+   ",", "\<\"Category:Maxwell's equations\"\>", 
+   ",", "\<\"Category:Equations of state\"\>", 
+   ",", "\<\"Category:Equations of fluid dynamics\"\>", 
+   ",", "\<\"Category:Dirac equation\"\>", 
+   ",", "\<\"Category:Acoustic equations\"\>", 
+   ",", "\<\"Category:Physics award winners\"\>", 
+   ",", "\<\"Category:Physics beyond the Standard Model\"\>", 
+   ",", "\<\"Category:Magnetic monopoles\"\>", 
+   ",", "\<\"Category:Hypothetical elementary particles\"\>", 
+   ",", "\<\"Category:Dark matter\"\>", ",", "\<\"Category:Black holes\"\>", 
+   ",", "\<\"Category:Amorphous solids\"\>", 
+   ",", "\<\"Category:Physics organization stubs\"\>", 
+   ",", "\<\"Category:Writing systems\"\>", 
+   ",", "\<\"Category:Thermodynamic systems\"\>", 
+   ",", "\<\"Category:Technology systems\"\>", 
+   ",", "\<\"Category:Quantum models\"\>", ",", "\<\"Category:Networks\"\>", 
+   ",", "\<\"Category:Infrastructure\"\>", 
+   ",", "\<\"Category:Dynamical systems\"\>", 
+   ",", "\<\"Category:Biological systems\"\>", 
+   ",", "\<\"Category:Physicist stubs\"\>", 
+   ",", "\<\"Category:Physics experiments\"\>", 
+   ",", "\<\"Category:History of thermodynamics\"\>", 
+   ",", "\<\"Category:History of electrical engineering\"\>", 
+   ",", "\<\"Category:Foundational quantum physics\"\>", 
+   ",", "\<\"Category:Classical elements\"\>", 
+   ",", "\<\"Category:Atomism\"\>", ",", "\<\"Category:Aether theories\"\>", 
+   ",", "\<\"Category:Time in fiction\"\>", 
+   ",", "\<\"Category:Teleportation in fiction\"\>", 
+   ",", "\<\"Category:Quantum mechanics in fiction\"\>", 
+   ",", "\<\"Category:Films about physics\"\>", 
+   ",", "\<\"Category:Fictional power sources\"\>", 
+   ",", "\<\"Category:Fictional dimensions\"\>", 
+   ",", "\<\"Category:Fictional characters by physics or reality manipulation\
+\"\>", ",", "\<\"Category:Faster-than-light travel in fiction\"\>", 
+   ",", "\<\"Category:Cartoon physics\"\>", 
+   ",", "\<\"Category:Physics awards templates\"\>", 
+   ",", "\<\"Category:Nobel Prize in Physics\"\>", 
+   ",", "\<\"Category:Laser awards and associations\"\>", 
+   ",", "\<\"Category:Awards of the Institute of Physics\"\>", 
+   ",", "\<\"Category:Awards of the German Physical Society\"\>", 
+   ",", "\<\"Category:Awards of the European Physical Society\"\>", 
+   ",", "\<\"Category:Awards of the American Physical Society\"\>", 
+   ",", "\<\"Category:Awards of the American Institute of Physics\"\>", 
+   ",", "\<\"Category:Awards of the Acoustical Society of America\"\>", 
+   ",", "\<\"Category:WikiProject Physics templates\"\>", 
+   ",", "\<\"Category:Subatomic particle symbol templates\"\>", 
+   ",", "\<\"Category:Physics stub templates\"\>", 
+   ",", "\<\"Category:Physics sidebar templates\"\>", 
+   ",", "\<\"Category:Physics navbox templates\"\>", 
+   ",", "\<\"Category:Physics infobox templates\"\>", 
+   ",", "\<\"Category:Physics formatting templates\"\>", 
+   ",", "\<\"Category:Physics citation templates\"\>", 
+   ",", "\<\"Category:Physical quantities and unit templates\"\>", 
+   ",", "\<\"Category:Nuclide templates\"\>", 
+   ",", "\<\"Category:Mechanics templates\"\>", 
+   ",", "\<\"Category:Weather\"\>", ",", "\<\"Category:Waves\"\>", 
+   ",", "\<\"Category:Transport phenomena\"\>", 
+   ",", "\<\"Category:Stellar phenomena\"\>", 
+   ",", "\<\"Category:Radiation\"\>", 
+   ",", "\<\"Category:Optical phenomena\"\>", 
+   ",", "\<\"Category:Ionization\"\>", 
+   ",", "\<\"Category:Electrical phenomena\"\>", 
+   ",", "\<\"Category:Earth phenomena\"\>", 
+   ",", "\<\"Category:Doppler effects\"\>", 
+   ",", "\<\"Category:Physics laboratories\"\>", 
+   ",", "\<\"Category:Physics institutes\"\>", 
+   ",", "\<\"Category:Physics departments\"\>", 
+   ",", "\<\"Category:International Young Physicists' Tournament\"\>", 
+   ",", "\<\"Category:Health Physics Society\"\>", 
+   ",", "\<\"Category:Geophysics organizations\"\>", 
+   ",", "\<\"Category:Crystallography organizations\"\>", 
+   ",", "\<\"Category:American Institute of Physics\"\>", 
+   ",", "\<\"Category:American Association of Physics Teachers\"\>", 
+   ",", "\<\"Category:Weightlessness\"\>", 
+   ",", "\<\"Category:Theories of gravitation\"\>", 
+   ",", "\<\"Category:Orbits\"\>", ",", "\<\"Category:Levitation\"\>", 
+   ",", "\<\"Category:Great Attractor\"\>", 
+   ",", "\<\"Category:Gravitational waves\"\>", 
+   ",", "\<\"Category:Gravitational-wave astronomy\"\>", 
+   ",", "\<\"Category:Gravimetry\"\>", 
+   ",", "\<\"Category:Fictional characters with gravity abilities\"\>", 
+   ",", "\<\"Category:Falling\"\>", 
+   ",", "\<\"Category:Effects of gravitation\"\>", 
+   ",", "\<\"Category:Thermodynamics stubs\"\>", 
+   ",", "\<\"Category:Relativity stubs\"\>", 
+   ",", "\<\"Category:Quantum physics stubs\"\>", 
+   ",", "\<\"Category:Plasma physics stubs\"\>", 
+   ",", "\<\"Category:Physics journal stubs\"\>", 
+   ",", "\<\"Category:Physics book stubs\"\>", 
+   ",", "\<\"Category:Particle physics stubs\"\>", 
+   ",", "\<\"Category:Optics stubs\"\>", 
+   ",", "\<\"Category:Nuclear and atomic physics stubs\"\>", 
+   ",", "\<\"Category:Isotope stubs\"\>", 
+   ",", "\<\"Category:Geophysics stubs\"\>", 
+   ",", "\<\"Category:Electromagnetism stubs\"\>", 
+   ",", "\<\"Category:Condensed matter stubs\"\>", 
+   ",", "\<\"Category:Classical mechanics stubs\"\>", 
+   ",", "\<\"Category:Atomic, molecular, and optical physics stubs\"\>", 
+   ",", "\<\"Category:Women physicists\"\>", 
+   ",", "\<\"Category:Tamil physicists\"\>", 
+   ",", "\<\"Category:Physics educators\"\>", 
+   ",", "\<\"Category:Physicists who committed suicide\"\>", 
+   ",", "\<\"Category:Physicists by nationality\"\>", 
+   ",", "\<\"Category:Physicists by field of research\"\>", 
+   ",", "\<\"Category:Physicists by century\"\>", 
+   ",", "\<\"Category:Opticians\"\>", 
+   ",", "\<\"Category:Medieval physicists\"\>", 
+   ",", "\<\"Category:Medical physicists\"\>", 
+   ",", "\<\"Category:Magneticians\"\>", 
+   ",", "\<\"Category:Jewish physicists\"\>", 
+   ",", "\<\"Category:Fictional physicists\"\>", 
+   ",", "\<\"Category:Ancient physicists\"\>", 
+   ",", "\<\"Category:African physicists\"\>", 
+   ",", "\<\"Category:Thermodynamics\"\>", 
+   ",", "\<\"Category:Theoretical physics\"\>", 
+   ",", "\<\"Category:Surface science\"\>", 
+   ",", "\<\"Category:Psychophysics\"\>", 
+   ",", "\<\"Category:Plasma physics\"\>", 
+   ",", "\<\"Category:Physics education\"\>", 
+   ",", "\<\"Category:Physical cosmology\"\>", 
+   ",", "\<\"Category:Philosophy of physics\"\>", 
+   ",", "\<\"Category:Particle physics\"\>", 
+   ",", "\<\"Category:Nuclear physics\"\>", 
+   ",", "\<\"Category:Experimental physics\"\>", 
+   ",", "\<\"Category:Electromagnetism\"\>", 
+   ",", "\<\"Category:Condensed matter physics\"\>", 
+   ",", "\<\"Category:Computational physics\"\>", 
+   ",", "\<\"Category:Cloud and fog physics\"\>", 
+   ",", "\<\"Category:Atomic, molecular, and optical physics\"\>", 
+   ",", "\<\"Category:Applied and interdisciplinary physics\"\>", 
+   ",", "\<\"Category:Standardized tests for Physics\"\>", 
+   ",", "\<\"Category:Physics websites\"\>", 
+   ",", "\<\"Category:Limits to computation\"\>", 
+   ",", "\<\"Category:Limits of computation\"\>", 
+   ",", "\<\"Category:Wikipedia books on physics\"\>", 
+   ",", "\<\"Category:Unsolved problems in physics\"\>", 
+   ",", "\<\"Category:Time in physics\"\>", 
+   ",", "\<\"Category:Subfields of physics\"\>", 
+   ",", "\<\"Category:Physics templates\"\>", 
+   ",", "\<\"Category:Physics stubs\"\>", 
+   ",", "\<\"Category:Physics-related lists\"\>", 
+   ",", "\<\"Category:Physics organizations\"\>", 
+   ",", "\<\"Category:Physics literature\"\>", 
+   ",", "\<\"Category:Physics in fiction\"\>", 
+   ",", "\<\"Category:Physics events\"\>", 
+   ",", "\<\"Category:Physics awards\"\>", ",", "\<\"Category:Physicists\"\>",
+    ",", "\<\"Category:Physical systems\"\>", 
+   ",", "\<\"Category:Physical quantities\"\>", 
+   ",", "\<\"Category:Physical properties\"\>", 
+   ",", "\<\"Category:Physical phenomena\"\>", 
+   ",", "\<\"Category:Modern physics\"\>", 
+   ",", "\<\"Category:Interaction\"\>", 
+   ",", "\<\"Category:History of physics\"\>", 
+   ",", "\<\"Category:Gravitation\"\>", 
+   ",", "\<\"Category:Fringe physics\"\>", 
+   ",", "\<\"Category:Equations of physics\"\>", 
+   ",", "\<\"Category:Concepts in physics\"\>", 
+   ",", "\<\"Category:Volume\"\>", ",", "\<\"Category:Voltage\"\>", 
+   ",", "\<\"Category:Visibility\"\>", ",", "\<\"Category:Viscosity\"\>", 
+   ",", "\<\"Category:Velocity\"\>", ",", "\<\"Category:Time\"\>", 
+   ",", "\<\"Category:Thermodynamic entropy\"\>", 
+   ",", "\<\"Category:Temperature\"\>", 
+   ",", "\<\"Category:Sound measurements\"\>", ",", "\<\"Category:Rates\"\>", 
+   ",", "\<\"Category:Pressure\"\>", 
+   ",", "\<\"Category:Physical constants\"\>", 
+   ",", "\<\"Category:Molar quantities\"\>", ",", "\<\"Category:Mass\"\>", 
+   ",", "\<\"Category:Logarithmic scales of measurement\"\>", 
+   ",", "\<\"Category:Length\"\>", 
+   ",", "\<\"Category:Geometric measurement\"\>", 
+   ",", "\<\"Category:Force\"\>", ",", "\<\"Category:Entropy\"\>", 
+   ",", "\<\"Category:Enthalpy\"\>", ",", "\<\"Category:Electric charge\"\>", 
+   ",", "\<\"Category:Electrical resistance and conductance\"\>", 
+   ",", "\<\"Category:Distance\"\>", ",", "\<\"Category:Density\"\>", 
+   ",", "\<\"Category:Capacitance\"\>", ",", "\<\"Category:Area\"\>", 
+   ",", "\<\"Category:Amount of substance\"\>", 
+   ",", "\<\"Category:Acceleration\"\>", ",", "\<\"Physics\"\>"}], 
+  "}"}]], "Output",
+ CellChangeTimes->{3.747384077963119*^9},
+ CellLabel->"Out[32]=",ExpressionUUID->"e18c8b8b-2d4f-4d5d-b460-92f220250764"]
+}, Open  ]]
+},
+WindowSize->{808, 610},
+WindowMargins->{{Automatic, 39}, {-2, Automatic}},
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (2018\:5e743\
+\:67085\:65e5)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 1008, 23, 101, "Input",ExpressionUUID->"c56a54cf-1a34-41aa-9de1-589f061f4b27"],
+Cell[1591, 47, 164426, 3181, 350, 78516, 1772, "CachedBoxData", "BoxData", "Output",ExpressionUUID->"2ca7ba3e-19b6-4946-b608-0e4f0e5ef274"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[166054, 3233, 359, 9, 44, "Input",ExpressionUUID->"0301b784-3934-43ed-ac92-b6845d0a8b31"],
+Cell[166416, 3244, 11133, 207, 2064, "Output",ExpressionUUID->"e18c8b8b-2d4f-4d5d-b460-92f220250764"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
